@@ -7,5 +7,6 @@ export function generateRandomString(length) {
       text += possible.charAt(Math.floor(Math.random() * possible.length));
     }
     return text;
-  }
+}
+  
   
